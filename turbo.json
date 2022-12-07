@@ -9,6 +9,7 @@
       "outputs": []
     },
     "storybook": {
+      "dependsOn": ["ui#dev"],
       "outputs": []
     },
     "dev": {
