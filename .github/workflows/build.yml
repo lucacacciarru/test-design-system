@@ -23,6 +23,10 @@ jobs:
         run: npm install -g yarn
         shell: bash
 
+      - name: Install yarn
+        run: npm install -g yarn
+        shell: bash
+
       - name: Build
         run: yarn build
         shell: bash
