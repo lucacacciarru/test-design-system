@@ -29,6 +29,6 @@ jobs:
         run: yarn build
         shell: bash
 
-        - name: Publish
+      - name: Publish
         run: yarn publish
         shell: bash
