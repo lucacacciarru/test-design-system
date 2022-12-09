@@ -12,7 +12,7 @@
     "lint": "turbo run lint",
     "storybook": "turbo run storybook",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release": "yarn build && changeset publish"
+    "release": "yarn build && yarn changeset publish"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
