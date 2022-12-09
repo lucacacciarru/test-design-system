@@ -1,7 +1,6 @@
 {
   "name": "design-system-test",
   "version": "0.0.0",
-  "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -12,7 +11,7 @@
     "lint": "turbo run lint",
     "storybook": "turbo run storybook",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release": "yarn build && yarn changeset publish"
+    "release": "yarn build && yarn changeset publish --access=public"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
