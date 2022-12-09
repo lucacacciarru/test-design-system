@@ -1,7 +1,7 @@
 {
   "name": "design-system-test",
   "version": "0.0.0",
-  "private": false,
+  "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
