@@ -9,7 +9,7 @@
       "outputs": []
     },
     "storybook": {
-      "dependsOn": ["ui#dev"],
+      "dependsOn": ["@lucacacciarru/ui#dev"],
       "outputs": []
     },
     "dev": {
