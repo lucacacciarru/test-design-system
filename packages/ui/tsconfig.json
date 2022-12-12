@@ -1,5 +1,6 @@
 {
   "extends": "tsconfig/react-library.json",
   "exclude": ["dist", "build", "node_modules"],
-  "include": ["."]
+  "include": ["./src", "./button.js"],
+  "compilerOptions": { "outDir": "./dist" }
 }

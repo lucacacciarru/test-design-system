@@ -12,10 +12,19 @@
     "lint": "turbo run lint",
     "storybook": "turbo run storybook",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release": "yarn build && yarn changeset publish"
+    "release": "yarn build && yarn changeset publish",
+    "test": "turbo run test"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "babel-jest": "^29.3.1",
     "eslint-config-custom": "*",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
     "prettier": "latest",
     "turbo": "latest"
   },
