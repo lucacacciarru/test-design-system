@@ -13,7 +13,7 @@
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
     "build": "tsc",
     "dev": "npm run build --watch",
-    "release": "yarn changeset publish",
+    "release": "yarn changeset version & yarn changeset publish",
     "test": "jest"
   },
   "devDependencies": {
