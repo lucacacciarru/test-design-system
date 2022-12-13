@@ -1,6 +1,6 @@
 {
   "name": "@lucacacciarru/ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
     "build": "tsc",
     "dev": "npm run build --watch",
-    "release": "yarn changeset version & yarn changeset publish",
+    "release": "yarn changeset publish",
     "test": "jest"
   },
   "devDependencies": {
