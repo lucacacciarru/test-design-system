@@ -29,6 +29,10 @@ jobs:
         run: yarn build
         shell: bash
 
+      - name: Test
+        run: yarn test
+        shell: bash
+
       - name: Publish
         run: yarn release
         shell: bash

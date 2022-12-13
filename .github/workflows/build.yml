@@ -31,3 +31,7 @@ jobs:
       - name: Build
         run: yarn build
         shell: bash
+
+      - name: Test
+        run: yarn test
+        shell: bash
