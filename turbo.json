@@ -2,7 +2,7 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": ["^build", "test"],
       "outputs": ["dist/**", "storybook-static/**"]
     },
     "lint": {
@@ -19,7 +19,8 @@
       "dependsOn": ["^build"]
     },
     "test": {
-      "dependsOn": []
+      "dependsOn": [],
+      "inputs": ["src/**/*.tsx", "src/**/*.ts"]
     }
   }
 }
