@@ -1,11 +1,10 @@
 # ui
 
-## 0.0.4
+## 0.1.0
 
-### Patch Changes
+### Minor Changes
 
-- fb1b187: Fixed test config
-- d40dc78: Added test setup to ui package and its turbo script and changed the build of ui package
+- Added code splitting
 
 ## 0.0.3
 
