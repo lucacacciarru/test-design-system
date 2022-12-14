@@ -1,7 +1,7 @@
 {
   "name": "@lucacacciarru/ui",
   "version": "0.1.0",
-  "main": "./dist/index.ts",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
   "files": [
@@ -17,7 +17,7 @@
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
     "build": "rm -rf dist & tsc",
     "dev": "npm run build --watch",
-    "publish": "yarn changeset publish",
+    "release": "yarn changeset publish",
     "test": "jest"
   },
   "devDependencies": {
